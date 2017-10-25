@@ -14,16 +14,17 @@ system ("color 07");
 //acomuladores
 int numpar= 0;
 int numimp= 0;
+int acom=0;
 //variables adicionales
 int n; 
 int i;
-int acom=0;
+
 //cantidad de areglos a desarrollar
 cout<<"+++++++++++++++++++++++++++++++"<<endl;
-cout<<"   Numero de areglos:   "<<endl;;
+cout<<"   Numero de Numeros:   "<<endl;;
 cout<<"+++++++++++++++++++++++++++++++"<<endl;;
 cin>>n;
-
+//areglo cantidad de N numeros
 int num[n];
 
 for (i=1;i<=n;i++)
