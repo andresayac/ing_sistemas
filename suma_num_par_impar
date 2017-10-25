@@ -46,7 +46,7 @@ for (i=1;i<=n;i++)
    
 }
 cout<<"+++++++++++++++++++++++++++++++"<<endl;;
-cout<<"CANTIDAD DE  AREGLOS:     "<<acom   <<endl;
+cout<<"CANTIDAD DE  NUMEROS SUMADOS:  "<<acom   <<endl;
 cout<<"+++++++++++++++++++++++++++++++"<<endl;;
 cout<<"SUMA DE NUMEROS PARES:    "<<numpar <<endl;
 cout<<"SUMA DE NUMEROS IMPARES:  "<<numimp <<endl;
