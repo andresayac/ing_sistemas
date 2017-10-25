@@ -1,0 +1,57 @@
+
+#include "iostream"
+//#
+
+using namespace std;
+
+int main()
+{
+    
+    
+
+system("cls");
+system ("color 07");
+//acomuladores
+int numpar= 0;
+int numimp= 0;
+//variables adicionales
+int n; 
+int i;
+int acom=0;
+//cantidad de areglos a desarrollar
+cout<<"+++++++++++++++++++++++++++++++"<<endl;
+cout<<"   Numero de areglos:   "<<endl;;
+cout<<"+++++++++++++++++++++++++++++++"<<endl;;
+cin>>n;
+
+int num[n];
+
+for (i=1;i<=n;i++)
+{
+ 
+     cout<<"Escribe un Numero ";
+     cin >> num[i];
+  
+    if (i % 2 == 0 ) {
+    // numeros par
+    numpar= numpar + num[i];
+    } 
+	else {
+    // numero impar
+    numimp= numimp + num[i];
+    }
+  
+  acom=acom +1;
+   
+}
+cout<<"+++++++++++++++++++++++++++++++"<<endl;;
+cout<<"CANTIDAD DE  AREGLOS:     "<<acom   <<endl;
+cout<<"+++++++++++++++++++++++++++++++"<<endl;;
+cout<<"SUMA DE NUMEROS PARES:    "<<numpar <<endl;
+cout<<"SUMA DE NUMEROS IMPARES:  "<<numimp <<endl;
+cout<<"+++++++++++++++++++++++++++++++"<<endl;;
+cout<<endl;
+system ("pause");
+	
+	
+}
